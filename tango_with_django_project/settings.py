@@ -154,3 +154,8 @@ LOGIN_URL = 'rango:login'
 # print(__file__)
 # print(os.path.dirname(__file__))
 # print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+# cookie monsters: behind the scenes
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True  # cookies: delet dis :gun:
+SESSION_COOKIE_AGE = 1209600  # expire after 14 days
